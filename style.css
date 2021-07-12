@@ -5,7 +5,32 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
+.header{
+    background-color: #562EFF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 0;
+    text-align: center;
+}
+.logo-area img{
+    width: 41px;
+    height: 51px;
+}
+.logo-area{
+    display: f;
+}
+.header h2, a{
+    color: #fff;
+}
+.header a{
+    font-weight: 400px;
+    font-size: 16px;
+    text-decoration: none;  
+    margin: 0 20px;
+}
+
 main{
     display: flex;
     flex-direction: column;
